@@ -1,0 +1,13 @@
+<div class="container">
+   <div class="row">
+       <div class="col-md-4">  
+          <a href="">About</a>
+       </div>
+       <div class="col-md-4">
+          <img src="image.png">
+       </div>
+       <div class="col-md-4"> 
+           <a href="#myModal1" data-toggle="modal">SHARE</a>
+       </div>
+    </div>
+</div>
