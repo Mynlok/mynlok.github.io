@@ -36,7 +36,7 @@
 </div>
   <script>
 function summon(){
-$.ajax({method:'GET', url:'https://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=257', headers:{'Access-Control-Allow-Origin':'*'}, dataType:'json'}).done(console.log($(this).price));
+$.ajax({url:'https://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=257', headers:{'Access-Control-Allow-Origin':'https://services.runescape.com'}, dataType:'json'}).done(console.log($(this).price));
 }  </script>
 <!--<button id="valor" name="valor" onclick="var holdresult = await fetch('https://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=257'); console.log(holdresult.json());"></button>-->
 <button id="valor" name="valor" onclick="summon()"></button>
